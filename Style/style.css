@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --var1:rgb(147, 64, 224);
+    --var2:rgb(86, 37, 133);
+    --var3:rgb(108, 27, 184);
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-color: var(--var1);
+    padding-bottom: 60px ;
+}
+header  >h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav{
+    background-color: var(--var1);
+    padding:10px;
+}
+nav > ul{
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav> ul> a{
+    text-decoration: none;
+    padding: 5px; 
+    font-size: 17px;
+    color: rgb(250, 249, 252);
+
+}
+nav > ul >a:hover{
+    background-color: var(--var2);
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+}
+main{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bloco1{
+    margin: 0px;
+    padding: 50px;
+    background-color: var(--var3);
+}
+.bloco1 > p {
+    text-indent: 10px;
+}
+#object1{
+    margin: 0px;
+    padding: 50px;
+    background-color: var(--var1);
+}
+
+#object1 > aside{
+    text-align: right;
+    padding-left: 80%;
+    padding-right: 0px;
+}
+#object1 > aside > p{
+    background-color: var(--var3);
+    padding: 50px;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+}
+.bloco1 >h1{
+    padding-bottom: 15px;
+}
+
+.bloco1 >h2{
+    padding-bottom: 15px;
+}
+
+#object2{
+    margin: 0px;
+    padding: 50px;
+    background-color: var(--var1);
+}
+
+#object2 > aside{
+    text-align: left;
+    
+    padding-right: 80%;
+    padding-left: 0px;
+    
+}
+
+#object2 > aside > p{
+    background-color: var(--var3);
+    padding: 50px;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+}
+
+.trexo{
+    color: rgb(80, 231, 80);
+}
+
+footer{
+    background-color: var(--var1);
+    padding:20px;
+    text-align: center;
+}
